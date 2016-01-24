@@ -11,11 +11,11 @@ GLUON_SITE_PACKAGES := \
         gluon-config-mode-tunneldigger \
         gluon-ebtables-filter-multicast \
         gluon-ebtables-filter-ra-dhcp \
-        gluon-luci-theme \
         gluon-luci-admin \
         gluon-luci-autoupdater \
-        gluon-luci-wifi-config \
         gluon-luci-portconfig \
+        gluon-luci-wifi-config \
+        gluon-luci-theme \
         gluon-luci-private-wifi \
         gluon-next-node \
         gluon-mesh-vpn-tunneldigger \
@@ -23,14 +23,11 @@ GLUON_SITE_PACKAGES := \
         gluon-setup-mode \
         gluon-status-page \
         gluon-ssid-changer \
-        gluon-migrate-vpn \
-        ffho-wifi-blackout-workaround \
-        ffho-autoupdater-wifi-fallback \
-        iwinfo \
+        haveged \
         iptables \
-        haveged
+        iwinfo
 
-DEFAULT_GLUON_RELEASE := 0.8-L2TP
+DEFAULT_GLUON_RELEASE := 0.8.1
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
