@@ -1,7 +1,7 @@
 GLUON_SITE_PACKAGES := \
         gluon-mesh-batman-adv-14 \
         gluon-alfred \
-        gluon-announced \
+        gluon-respondd \
         gluon-autoupdater \
         gluon-config-mode-autoupdater \
         gluon-config-mode-contact-info \
@@ -19,21 +19,22 @@ GLUON_SITE_PACKAGES := \
         gluon-luci-private-wifi \
         gluon-next-node \
         gluon-mesh-vpn-tunneldigger \
+        gluon-tunneldigger-watchdog \
+        gluon-migrate-vpn \
         gluon-radvd \
         gluon-setup-mode \
         gluon-status-page \
         gluon-ssid-changer \
-        gluon-migrate-vpn \
-        ffho-wifi-blackout-workaround \
-        ffho-autoupdater-wifi-fallback \
         iwinfo \
         iptables \
         haveged
 
-DEFAULT_GLUON_RELEASE := 0.8-L2TP
+DEFAULT_GLUON_RELEASE := 0.8.3-EXP-1502
+
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 
 GLUON_PRIORITY ?= 0
 GLUON_LANGS ?=en de
+
