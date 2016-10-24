@@ -30,7 +30,7 @@ GLUON_SITE_PACKAGES := \
 	ffen-updatefixer \
 	ffen-ssidchanger
 
-DEFAULT_GLUON_RELEASE := 0.8.4
+DEFAULT_GLUON_RELEASE := 0.8.7
 
 
 # Allow overriding the release number from the command line
