@@ -29,8 +29,8 @@ GLUON_SITE_PACKAGES := \
         haveged \
         ffen-ssidchanger
 
-# DEFAULT_GLUON_RELEASE := 0.8.7
-DEFAULT_GLUON_RELEASE := 0.8.7+exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.8.8
+# DEFAULT_GLUON_RELEASE := 0.8.8+exp$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
