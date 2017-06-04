@@ -12,13 +12,13 @@ msgstr ""
 
 msgid "gluon-config-mode:welcome"
 msgstr ""
-"Welcome the the setup wizard of your new Freifunk Wetter node. "
+"Welcome to the setup wizard of your new Freifunk Wetter node. "
 "Please fill out the following form and transmit it."
 
 msgid "gluon-config-mode:pubkey"
 msgstr ""
 "This is your Freifunk node's public key. The setup mode is complete."
-"Please remeber to move the network cable form the yellow lan to the blue wan port."
+"Please remember to move the network cable form the yellow lan to the blue wan port."
 
 
 msgid "gluon-config-mode:reboot"
