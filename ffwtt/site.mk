@@ -11,6 +11,7 @@ GLUON_SITE_PACKAGES := \
         gluon-config-mode-tunneldigger \
         gluon-ebtables-filter-multicast \
         gluon-ebtables-filter-ra-dhcp \
+	gluon-ebtables-segment-mld \
         gluon-luci-theme \
         gluon-luci-admin \
         gluon-luci-autoupdater \
@@ -29,8 +30,8 @@ GLUON_SITE_PACKAGES := \
         haveged \
         ffen-ssidchanger
 
-DEFAULT_GLUON_RELEASE := 0.8.8
-# DEFAULT_GLUON_RELEASE := 0.8.8+exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.9.0
+# DEFAULT_GLUON_RELEASE := 0.9.0+exp$(shell date '+%Y%m%d')
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -38,3 +39,4 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 GLUON_PRIORITY ?= 0
 GLUON_REGION ?= eu
 GLUON_LANGS ?= en de
+GLUON_ATH10K_MESH ?= 11s
