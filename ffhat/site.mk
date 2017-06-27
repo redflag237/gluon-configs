@@ -3,6 +3,7 @@ GLUON_SITE_PACKAGES := \
         gluon-alfred \
         gluon-respondd \
         gluon-autoupdater \
+	gluon-config-mode-ppa\
         gluon-config-mode-autoupdater \
         gluon-config-mode-contact-info \
         gluon-config-mode-core \
@@ -11,15 +12,18 @@ GLUON_SITE_PACKAGES := \
         gluon-config-mode-tunneldigger \
         gluon-ebtables-filter-multicast \
         gluon-ebtables-filter-ra-dhcp \
+	gluon-ebtables-segment-mld \
         gluon-luci-theme \
         gluon-luci-admin \
         gluon-luci-autoupdater \
         gluon-luci-wifi-config \
         gluon-luci-portconfig \
         gluon-luci-private-wifi \
+	gluon-luci-node-role \
         gluon-next-node \
         gluon-mesh-vpn-tunneldigger \
         gluon-tunneldigger-watchdog \
+	ffffm-keep-radio-channel \
         gluon-migrate-vpn \
         gluon-radvd \
         gluon-setup-mode \
@@ -27,13 +31,13 @@ GLUON_SITE_PACKAGES := \
         iwinfo \
         iptables \
         haveged \
-	ffen-updatefixer \
-	ffen-ssidchanger
+        ffen-ssidchanger
 
-DEFAULT_GLUON_RELEASE := 0.8.8
+DEFAULT_GLUON_RELEASE := 0.9.1.1
+# DEFAULT_GLUON_RELEASE := 0.9.1+exp$(shell date '+%Y%m%d')
 
-# Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
-
 GLUON_PRIORITY ?= 0
-GLUON_LANGS ?=en de
+GLUON_REGION ?= eu
+GLUON_LANGS ?= en de
+GLUON_ATH10K_MESH ?= 11s
