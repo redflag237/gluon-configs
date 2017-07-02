@@ -1,11 +1,12 @@
 # gluon site configs for l2tp
 
-Additional repos used 2016.2.6 0.9.1 / 0.9.1.1
+Additional repos used for Gluon 2016.2.6 
 
 * https://github.com/freifunk-en/ffen-packages
 * https://github.com/ffrl/ffrl-packages
 * https://github.com/freifunk-kiel/ffki-packages
 * https://github.com/freifunk-ffm/packages
+* https://github.com/eulenfunk/packages
 
 Change Log Gluon 2016.2.6 FW 0.9.1 / 0.9.1.1
 
@@ -23,6 +24,12 @@ Change Log Gluon 2016.2.6 FW 0.9.1 / 0.9.1.1
 * ffffm-keep-radio-channel added
 * GLUON_ATH10K_MESH ?= 11s added
 
-Change Log Gluon 2016.2.6 FW 0.9.2 (beta status)
+Change Log Gluon 2016.2.6 FW 0.9.2
 * ibss mesh deactivated
 * autoupdater branch experimental deleted
+* gluon-quickfix added
+
+Change Log next version
+* banner 
+* max. clients on wifi patch
+* ppa as text in config mode
