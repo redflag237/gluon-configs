@@ -1,9 +1,7 @@
 GLUON_SITE_PACKAGES := \
         gluon-mesh-batman-adv-14 \
-        gluon-alfred \
         gluon-respondd \
         gluon-autoupdater \
-	gluon-quickfix \
 	gluon-config-mode-ppa\
         gluon-config-mode-autoupdater \
         gluon-config-mode-contact-info \
@@ -25,7 +23,7 @@ GLUON_SITE_PACKAGES := \
         gluon-mesh-vpn-tunneldigger \
         gluon-tunneldigger-watchdog \
 	ffffm-keep-radio-channel \
-        gluon-migrate-vpn \
+        ffen-ath9k-broken-wifi-workaround \
         gluon-radvd \
         gluon-setup-mode \
         gluon-status-page \
@@ -34,8 +32,8 @@ GLUON_SITE_PACKAGES := \
         haveged \
         ffen-ssidchanger
 
-DEFAULT_GLUON_RELEASE := 0.9.2
-# DEFAULT_GLUON_RELEASE := 0.9.2+exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.9.3
+# DEFAULT_GLUON_RELEASE := 0.9.3+exp$(shell date '+%Y%m%d')
 
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 GLUON_PRIORITY ?= 0
