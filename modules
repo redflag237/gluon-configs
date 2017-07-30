@@ -1,37 +1,23 @@
-GLUON_FEEDS='openwrt gluon routing luci ffrl_packages ffen_packages ffki_packages ffffm_packages'
+GLUON_FEEDS='openwrt gluon routing luci ffrl'
 
-OPENWRT_REPO=git://github.com/openwrt/openwrt.git
-OPENWRT_COMMIT=0f757bd2606971252f901ef3faf4dbd0086315f7
-OPENWRT_BRANCH=chaos_calmer
+LEDE_REPO=https://git.lede-project.org/source.git
+LEDE_BRANCH=lede-17.01
+LEDE_COMMIT=65eec8bd5f6337956b972d07fde49eb5db9cb4a0
 
-PACKAGES_OPENWRT_REPO=git://github.com/openwrt/packages.git
-PACKAGES_OPENWRT_COMMIT=73776792f7d58e982be9e5819450d4875b273159
-PACKAGES_OPENWRT_BRANCH=for-15.05
+PACKAGES_OPENWRT_REPO=https://github.com/openwrt/packages.git
+PACKAGES_OPENWRT_BRANCH=lede-17.01
+PACKAGES_OPENWRT_COMMIT=8844d7e2d4f717898c55c6345ad3b43fca52c440
 
-PACKAGES_GLUON_REPO=git://github.com/freifunk-gluon/packages.git
-PACKAGES_GLUON_COMMIT=4346733427778af35f3934ef9a4ae8298228d151
-PACKAGES_GLUON_BRANCH=v2016.2.x
+PACKAGES_GLUON_REPO=https://github.com/freifunk-gluon/packages.git
+PACKAGES_GLUON_COMMIT=71823713c0e9451d1cd459cb10309f468188eb6e
 
-PACKAGES_ROUTING_REPO=git://github.com/openwrt-routing/packages.git
-PACKAGES_ROUTING_COMMIT=a4eae82c155079a4372e4b910ec733f77288b717
+PACKAGES_ROUTING_REPO=https://github.com/openwrt-routing/packages.git
+PACKAGES_ROUTING_COMMIT=8d9d70510b2c86f7503962308846ec874f0eb39f
 
-PACKAGES_LUCI_REPO=git://github.com/openwrt/luci.git
-PACKAGES_LUCI_COMMIT=70a4d43cc895b7d728b4fc201f2b6fd9f4b8aaec
-PACKAGES_LUCI_BRANCH=for-15.05
+PACKAGES_LUCI_REPO=https://github.com/openwrt/luci.git
+PACKAGES_LUCI_BRANCH=lede-17.01
+PACKAGES_LUCI_COMMIT=1f014bd2180b364bec4c3f6457f72a0621884f9a
 
-PACKAGES_FFEN_PACKAGES_REPO=https://github.com/freifunk-en/ffen-packages.git
-PACKAGES_FFEN_PACKAGES_COMMIT=0d8e7f387efb87c3f5b7e63002dd6e58382a9e95
-
-PACKAGES_FFRL_PACKAGES_REPO=https://github.com/ffrl/ffrl-packages.git
-PACKAGES_FFRL_PACKAGES_COMMIT=9ef54396cf79031b1b7e35af038b8a0f2ec1bd90
-PACKAGES_FFRL_PACKAGES_BRANCH=Branch_v2016.2.x
-
-PACKAGES_FFKI_PACKAGES_REPO=https://github.com/freifunk-kiel/ffki-packages.git
-PACKAGES_FFKI_PACKAGES_COMMIT=1c1178d91a230f997e16e642fa2bf22e58ca757d
-PACKAGES_FFKI_PACKAGES_BRANCH=2016.1.x
-
-PACKAGES_FFFFM_PACKAGES_REPO=https://github.com/freifunk-ffm/packages.git
-PACKAGES_FFFFM_PACKAGES_COMMIT=b2f29b8adc841e59a6ec670ba1d5efb65bf9909b
-PACKAGES_FFFFM_PACKAGES_BRANCH=master
-
-
+PACKAGES_FFRL_REPO=https://github.com/ffrl/ffrl-packages.git
+PACKAGES_FFRL_COMMIT=ae3be0765e3bab7434aedeb0f8b8e0d8d0b41075
+PACKAGES_FFRL_BRANCH=Branch_v2017.x
