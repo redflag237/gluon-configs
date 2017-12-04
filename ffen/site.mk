@@ -18,6 +18,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-private-wifi \
 	gluon-mesh-vpn-tunneldigger \
 	gluon-tunneldigger-watchdog \
+        gluon-authorized-keys \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
@@ -116,8 +117,7 @@ GLUON_ARCHERC7_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_PA
 #mpc85xx-generic
 GLUON_TLWDR4900_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_PACKAGES_STORAGE)
 
-DEFAULT_GLUON_RELEASE := 0.9.4
-# DEFAULT_GLUON_RELEASE := 0.9.4+exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := 0.9.4.2
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -125,7 +125,7 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
 
-GLUON_LANGS ?= en de
+GLUON_LANGS ?= de en
 
 GLUON_ATH10K_MESH ?= 11s
 
