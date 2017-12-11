@@ -1,4 +1,4 @@
-GLUON_FEEDS='openwrt gluon routing luci ffrl ffwtbg freifunknord'
+GLUON_FEEDS='openwrt gluon routing luci ffrl ffwtbg ssidchanger'
 
 LEDE_REPO=https://git.lede-project.org/source.git
 LEDE_BRANCH=lede-17.01
