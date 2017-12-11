@@ -22,6 +22,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-setup-mode \
 	gluon-status-page \
         gluon-authorized-keys \
+        gluon-ssid-changer \
         ff-wtbg-autoreboot \
 	iwinfo \
 	haveged
