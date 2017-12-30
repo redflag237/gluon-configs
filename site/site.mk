@@ -21,6 +21,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
+        gluon-authorized-keys \
         gluon-ssid-changer \
         ff-wtbg-autoreboot \
 	iwinfo \
@@ -118,7 +119,7 @@ GLUON_ARCHERC7_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_PA
 #mpc85xx-generic
 GLUON_TLWDR4900_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_PACKAGES_STORAGE)
 
-DEFAULT_GLUON_RELEASE := 0.9.4.3
+DEFAULT_GLUON_RELEASE := 0.9.4.4
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
