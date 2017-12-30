@@ -1,4 +1,4 @@
-Gluon 2017.1.4 FW 0.9.4.3
+#Gluon v2017.1.4 Firmware v0.9.4.3
 
 Additional Repositories used:
 
