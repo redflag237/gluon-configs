@@ -8,6 +8,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-config-mode-geo-location \
 	gluon-config-mode-hostname \
 	gluon-config-mode-mesh-vpn \
+	gluon-config-mode-ppa \
 	gluon-ebtables-filter-multicast \
 	gluon-ebtables-filter-ra-dhcp \
         gluon-ebtables-segment-mld \
@@ -18,6 +19,7 @@ GLUON_SITE_PACKAGES := \
 	gluon-web-private-wifi \
 	gluon-mesh-vpn-tunneldigger \
 	gluon-tunneldigger-watchdog \
+	gluon-quickfix \
 	gluon-radvd \
 	gluon-setup-mode \
 	gluon-status-page \
