@@ -1,4 +1,4 @@
-# Gluon v2017.1.4 Firmware v0.9.4.4
+# Gluon v2017.1.4 Firmware v0.9.4.5
 
 Additional Repositories used:
 
@@ -11,13 +11,17 @@ PACKAGES_FFWTBG_COMMIT=a3c6410fe37f75bd339ca00b1b225a10bf930f45
 PACKAGES_FFWTBG_BRANCH=v2017.1.4
 
 PACKAGES_SSIDCHANGER_REPO=https://github.com/freifunk-nord/gluon-ssid-changer.git
-PACKAGES_SSIDCHANGER_COMMIT=b0535e2a5c570a76cb06453ee359160c2dd926c2
+PACKAGES_SSIDCHANGER_COMMIT=c6dc54f7d42f0871372df4dbbbe0dfffe7d56c51
 PACKAGES_SSIDCHANGER_BRANCH=lede
 
 PACKAGES_EULENFUNK_REPO=https://github.com/eulenfunk/packages.git
-PACKAGES_EULENFUNK_COMMIT=e3dc15822ca5c8f033cd7972e1a673f479b404f7  
+PACKAGES_EULENFUNK_COMMIT=47f21034fc659ca29bd18d38c8b78fc3d10a73a5  
 PACKAGES_EULENFUNK_BRANCH=lede
 
 PACKAGES_FFKI_REPO=https://github.com/freifunk-kiel/ffki-packages.git
 PACKAGES_FFKI_COMMIT=06719a9ce84484d112876ea9a3cfb4c5b50f644f      
 PACKAGES_FFKI_BRANCH=lede
+
+No change in site configuration. 
+Only newer commits in additional repos and gluon. 
+Now supporting tp-link-tl-wr1043n-v5 tl-wr1043n-v5
