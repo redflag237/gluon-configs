@@ -22,6 +22,4 @@ PACKAGES_FFKI_REPO=https://github.com/freifunk-kiel/ffki-packages.git
 PACKAGES_FFKI_COMMIT=06719a9ce84484d112876ea9a3cfb4c5b50f644f      
 PACKAGES_FFKI_BRANCH=lede
 
-No change in site configuration. 
-Only newer commits in additional repos and gluon. 
-Now supporting tp-link-tl-wr1043n-v5 tl-wr1043n-v5
+No change in site configuration. Now supporting tp-link-tl-wr1043n-v5 tl-wr1043n-v5
