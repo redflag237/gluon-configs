@@ -1,33 +1,31 @@
-GLUON_SITE_PACKAGES := \
-	gluon-mesh-batman-adv-14 \
-	gluon-respondd \
-	gluon-autoupdater \
-	gluon-config-mode-autoupdater \
-	gluon-config-mode-contact-info \
-	gluon-config-mode-core \
-	gluon-config-mode-geo-location \
-	gluon-config-mode-hostname \
-	gluon-config-mode-mesh-vpn \
-	gluon-config-mode-ppa \
-	gluon-ebtables-filter-multicast \
-	gluon-ebtables-filter-ra-dhcp \
-    gluon-ebtables-segment-mld \
-	gluon-web-admin \
-    gluon-web-network \
-	gluon-web-autoupdater \
-	gluon-web-wifi-config \
-	gluon-web-private-wifi \
-	gluon-mesh-vpn-tunneldigger \
-	gluon-tunneldigger-watchdog \
-	gluon-quickfix \
-	gluon-radvd \
-	gluon-setup-mode \
-	gluon-status-page \
-    gluon-authorized-keys \
-    gluon-ssid-changer \
-    ff-wtbg-autoreboot \
-	iwinfo \
-	haveged
+GLUON_FEATURES := \
+	autoupdater \
+	ebtables-filter-multicast \
+	ebtables-filter-ra-dhcp \
+	mesh-batman-adv-14 \
+	radvd \
+	respondd \
+	status-page \
+	config-mode-autoupdater \
+	config-mode-contact-info \
+	config-mode-core \
+	config-mode-geo-location \
+	config-mode-hostname \
+	config-mode-mesh-vpn \
+    ebtables-segment-mld \
+	web-admin \
+	web-wizard \
+    web-network \
+	web-advanced \
+	web-autoupdater \
+	web-wifi-config \
+	web-private-wifi \
+	mesh-vpn-tunneldigger \
+	tunneldigger-watchdog \
+	setup-mode \
+    authorized-keys
+
+GLUON_SITE_PACKAGES := haveged iwinfo
 
 # support the USB stack
 USB_PACKAGES_BASIC := \
@@ -121,7 +119,7 @@ GLUON_ARCHERC7_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_PA
 #mpc85xx-generic
 GLUON_TLWDR4900_SITE_PACKAGES := $(USB_PACKAGES_BASIC) $(TOOLS_PACKAGES) $(USB_PACKAGES_STORAGE)
 
-DEFAULT_GLUON_RELEASE := 0.9.4.5
+DEFAULT_GLUON_RELEASE :=0.9.5
 
 # Allow overriding the release number from the command line
 GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
@@ -129,7 +127,7 @@ GLUON_RELEASE ?= $(DEFAULT_GLUON_RELEASE)
 # Default priority for updates.
 GLUON_PRIORITY ?= 0
 
-GLUON_LANGS ?= de en
+GLUON_LANGS ?= en de
 
 GLUON_ATH10K_MESH ?= 11s
 
